@@ -1,0 +1,14 @@
+<div class="container my-3">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="card">
+                <form [formGroup]="myForm">
+                    <input type="text" name="" id="" class="form-control" placeholder="enter your fullname...."
+                        formControlName="title">
+                </form>
+                <hr>
+                <pre><b>{{myDisplayTitle | uppercase}}</b></pre>
+            </div>
+        </div>
+    </div>
+</div>
